@@ -1,1 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? oila = Montserrat: wgh@400;500;600;700 & display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<html>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header__right">
+                <img src="./img/background.jpg" alt="" class="header__img">
+                <img src="./img/Group 5.png" alt="" class="header__logo">
+            </div>
+            <div class="header__left">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <form action="" class="header__form">
+                            <input class="header__search" type="search" placeholder="type to search">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </form>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">
+                            <img src="./img/Vector (5).png" alt="" class="header__shoppingcart">
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <button class="header__button">
+                            Sign up
+                        </button>
+                    </li>
+                    <li class="header__item">
+                        <button class="header__btn">
+                            Sign in
+                        </button>
+                    </li>
+                </ul>
+                <div class="header__card">
+                    <h1 class="header__title">
+                        Kembang Flower Mantap
+                    </h1>
+                    <p class="header__text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s,
+                    </p>
+                    <div class="header__connection">
+                        <a href="" class="header__links">
+                            <ion-icon name="arrow-back-outline"></ion-icon>
+                            Previous
+                            <span class="header__span">Kaktus Plant</span>
+                        </a>
+                        <a href="" class="header__links">
+                            next
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                            <span class="header__span">Rahasia Plant</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="section__box">
+                <div class="section__card">
+                    <img src="./img/Group 10.png" alt="" class="section__img">
+                    <p class="section__text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard
+                    </p>
+                </div>
+                <div class="section__card">
+                    <img src="./img/Group 10 (1).png" alt="" class="section__img">
+                    <p class="section__text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard
+                    </p>
+                </div>
+                <div class="section__card">
+                    <img src="./img/Group 10 (2).png" alt="" class="section__img">
+                    <p class="section__text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard
+                    </p>
+                </div>
+                <div class="section__card">
+                    <img src="./img/Group 10 (3).png" alt="" class="section__img">
+                    <p class="section__text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard
+                    </p>
+                </div>
+            </div>
+            <div class="section__box">
+                <h3 class="section__title">
+                    Featured Plants
+                </h3>
+                <select class="section__select">
+                    <option>
+                        Cheaper First
+                    </option>
+                    <option>
+                        Cheaper First
+                    </option>
+                    <option>
+                        Cheaper First
+                    </option>
+                </select>
+            </div>
+            <div class="section__box">
+                <div class="section__content">
+                    <img src="./img/Mask Group.png" alt="" class="section__picture">
+                    <p class="section__info">
+                        Kaktus Plants
+                    </p>
+                    <p class="section__price">
+                        IDR 85.000
+                    </p>
+                </div>
+                <div class="section__content">
+                    <img src="./img/Mask Group (1).png" alt="" class="section__picture">
+                    <p class="section__info">
+                        Kaktus Plants
+                    </p>
+                    <p class="section__price">
+                        IDR 85.000
+                    </p>
+                </div>
+                <div class="section__content">
+                    <img src="./img/Mask Group (2).png" alt="" class="section__picture">
+                    <p class="section__info">
+                        Kaktus Plants
+                    </p>
+                    <p class="section__price">
+                        IDR 85.000
+                    </p>
+                </div>
+                <div class="section__content">
+                    <img src="./img/Mask Group (3).png" alt="" class="section__picture">
+                    <p class="section__info">
+                        Kaktus Plants
+                    </p>
+                    <p class="section__price">
+                        IDR 85.000
+                    </p>
+                </div>
+                <div class="section__content">
+                    <img src="./img/Mask Group (4).png" alt="" class="section__picture">
+                    <p class="section__info">
+                        Kaktus Plants
+                    </p>
+                    <p class="section__price">
+                        IDR 85.000
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sector">
+        <div class="container">
+            <div class="sector__card">
+                <h2 class="sector__title">Buy more plants, it helps you to be relaxed </h2>
+                <p class="sector__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida gravida aliquam. Pellentesque
+                    et lobortis nisl. Sed et mauris justo. Nulla eu enim non mauris maximus dignissim. Maecenas vitae
+                    eros sapien. Quisque pellentesque tempus dignissim.
+                </p>
+                <img src="./img/card2.png" alt="" class="sector__img">
+
+            </div>
+            <img src="./img/card1.png" alt="" class="sector__image">
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="container">
+            <div class="page__card">
+                <h2 class="page__title">
+                    Get your favourites plant on our shop now
+                </h2>
+                <button class="page__btn">Visit Shop</button>
+            </div>
+            <img src="./img/Mask Group (5).png" alt="" class="page__img">
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+        <div class="container">
+             <div class="footer__card">
+                 <h2 class="footer__title">
+                     Plantku
+                 </h2>
+                 <p class="footer__text">
+                     <span>
+                         Plantku House
+                     </span>
+                     Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta, Daerah Istimewa
+                     Yogyakarta 55282
+                 </p>
+             </div>
+             <ul class="footer__list">
+                 <li class="footer__item">
+                     <h3 class="footer__subtitle">
+                         Perusahaan
+                     </h3>
+                 </li>
+                 <li class="footer__item">
+                     <a href="" class="footer__link">Tentang Kami</a>
+                 </li>
+                 <li class="footer__item">
+                     <a href="" class="footer__link">Hubungi Kami</a>
+                 </li>
+             </ul>
+             <ul class="footer__list">
+                 <li class="footer__item">
+                     <h3 class="footer__subtitle">
+                         Produk
+                     </h3>
+                 </li>
+                 <li class="footer__item">
+                     <a href="" class="footer__link">Tanaman</a>
+                 </li>
+                 <li class="footer__item">
+                     <a href="" class="footer__link">Tanaman Lain</a>
+                 </li>
+             </ul>
+             <form action="" class="footer__form">
+                 <h3 class="footer__subtitle">Berlangganan Email Kami</h3>
+                 <input type="text" placeholder="Masukan Alamat Email" class="footer__input">
+                 <button class="footer__button">
+                     Submit
+                 </button>
+             </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
